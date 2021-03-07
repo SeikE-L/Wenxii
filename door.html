@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/door.css">
+        <title>ISLAND-Door</title>
+        <link rel="icon" type="img/png" sizes="144×144" href="img/logo2.png"/>
+        <link rel="apple-touch-icon" type="img/png" sizes="144×144" href="img/logo2.png"/>
+        <embed src="mp3/Capper,LEGGO,4D - 无人区玫瑰.mp3" hidden="false" style="margin-top: -96px">
+    </head>
+    <body>
+        <h1>Nobody's Island</h1>
+
+        <div class="pictures">
+            <img src="img/p1.JPG" class="img">
+            <img src="img/p2.JPG" class="img">
+            <img src="img/p3.JPG" class="img">
+            <img src="img/p4.JPG" class="img">
+            <img src="img/p5.JPG" class="img">
+        </div>
+
+        <div class="zia">
+            <div id="zi11"><pre>XinJiang 喀纳斯                 XinJiang 阿勒泰                 ShangHai 共青公园               Qinghai 草原                    BeiJing 故宫</pre></div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="logo">
+            <div id="Door">DOOR</div>
+            <br>
+            <p>During the epidemic, what I want to do most is to travel, to some cities I have never been to in the vacation time, to the north for the grassland and snow, to the south for the forest and sunshine. I also want to go to no man's land, enjoy the space of myself only, so I have my own no man's land in the web.</p>
+        </div>
+        <div class="logotu">
+            <img src="img/logo1.png">
+        </div>
+        <br>
+        <br>
+
+        <div class="bottom">
+            <br>
+            <br>
+            <div id="back"><a href="Island.html">BACK ⏎</a></div>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="box1">
+
+            <img src="img/猫猫_画板 1.png" style="margin-left: 500px; margin-top:500px; z-index: 1; position:absolute; bottom:0" width="25%">
+            <div class="eye1">
+                <div class="ball"></div>
+            </div>
+
+            <div class="eye2">
+                <div class="ball"></div>
+            </div>
+
+        </div>
+        <script>
+            var balls = document.getElementsByClassName("ball");
+            document.onmousemove = function(){
+                var x = event.clientX*100/window.innerWidth+"%";
+                var y = event.clientY*100/window.innerWidth+"%";
+                for(var i=0;i<2;i++){
+                    balls[i].style.left=x;
+                    balls[i].style.top=y;
+                    balls[i].style.transform="translate(-"+x+",-"+y+")";
+                }
+            }
+        </script>
+
+    <br>
+
+    </body>
+</html>
